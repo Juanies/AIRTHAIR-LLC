@@ -20,3 +20,10 @@
         margin: 1em 0 0 0;
     }
 }
+
+@media (max-width: 768px){
+    .Footer{
+        flex-direction: column;
+        text-align: center;
+    }
+}

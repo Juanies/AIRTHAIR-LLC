@@ -1,0 +1,16 @@
+@use "./../variables" as *;
+
+.Main-section-privacy-p{
+    font-family: $font-family;
+    width: 50em;
+}
+.Main-section-privacy{
+    &-ol{
+        display: flex;
+        flex-direction: column;
+        width: 50em;
+        gap: 2em;
+    }
+    &-li{}
+    &-p{} 
+}
