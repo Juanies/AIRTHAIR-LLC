@@ -8,9 +8,15 @@
     &-ol{
         display: flex;
         flex-direction: column;
-        width: 50em;
         gap: 2em;
     }
-    &-li{}
-    &-p{} 
+}
+
+@media (max-width: 768px){
+    .Main-section-privacy-p{
+        width: 100%;
+        margin: 0;
+        padding: 1em;
+        overflow-wrap: break-word;
+    }
 }
