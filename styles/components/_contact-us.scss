@@ -1,0 +1,10 @@
+@use "./../variables" as *;
+
+
+.Main-section-contact-p{
+    font-family: $second-family;
+    width: 40%;
+    text-align: center;
+    text-overflow: unset;
+    padding: 2em;
+}

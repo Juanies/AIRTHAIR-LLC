@@ -76,6 +76,7 @@ svg {
 body {
   min-height: 100vh;
   font-size: 100%;
+  position: relative;
   -webkit-hyphens: auto;
           hyphens: auto;
   font-smooth: always;
@@ -229,4 +230,18 @@ body {
 }
 .Footer-address-a {
   font-family: "Merriweather", serif;
+  margin: 1em 0 0 0;
+  font-style: normal;
+}
+.Footer-a {
+  font-family: "Merriweather", serif;
+  margin: 1em 0 0 0;
+}
+
+.Main-section-contact-p {
+  font-family: "Roboto", sans-serif;
+  width: 40%;
+  text-align: center;
+  text-overflow: unset;
+  padding: 2em;
 }/*# sourceMappingURL=index.css.map */

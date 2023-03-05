@@ -11,13 +11,12 @@
     &-address{
         &-a{
             font-family: $font-family;
+            margin: 1em 0 0 0;
+            font-style: normal;
         }
     }
-    &-ul{}
-    &-li{
-    
-    }
     &-a{
-        
+        font-family: $font-family;
+        margin: 1em 0 0 0;
     }
 }
