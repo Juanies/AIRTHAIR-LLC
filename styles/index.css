@@ -128,7 +128,15 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   width: 80%;
-  max-height: 30em;
+  max-width: 100%;
+}
+.Main-section-Welcome-contenedor {
+  overflow: hidden;
+  position: relative;
+  height: 20em;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .Main-section-text1 {
   width: 100%;
@@ -198,10 +206,27 @@ body {
   width: 35%;
 }
 
+.oculto {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: 0.7s ease-in-out;
+}
+
+.visible {
+  opacity: 1;
+  transform: scale(1);
+  transition: 0.7s ease-in-out;
+}
+
 .Footer {
-  padding: 10em 0 5em 0;
+  padding: 5em 0 5em 0;
   display: flex;
+  margin: 5em 0 0 0;
   gap: 4em;
   justify-content: center;
   align-items: center;
+  background-color: #cfcfcf;
+}
+.Footer-address-a {
+  font-family: "Merriweather", serif;
 }/*# sourceMappingURL=index.css.map */
