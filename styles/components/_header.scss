@@ -1,0 +1,25 @@
+@import '../variables';
+
+.Header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 16em;
+    &-h1{
+        max-width: fit-content;
+        padding: .4em;
+        border: 3px solid $black-color;
+        font-weight: 400;
+        font-size: 1.2rem;
+        font-family: $font-family;
+    }
+    &-ul{
+        display: flex;
+        gap: 1em;
+    }
+    &-a{
+        font-family: $second-family;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,15 @@
+@import './../variables';
+
+.Footer{
+    padding: 10em 0 5em 0;
+    display: flex;
+    gap: 4em;
+    justify-content: center;
+    align-items: center;
+    &-address{
+        &-a{}
+    }
+    &-ul{}
+    &-li{}
+    &-a{}
+}
