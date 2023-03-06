@@ -4,6 +4,7 @@
 .Main{
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     &-section-Welcome{
         display: flex;
         flex-direction: column;
